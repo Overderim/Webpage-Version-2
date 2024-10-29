@@ -7,8 +7,8 @@ body {
 .hero {
     position: relative;
     width: 100%;
-    height: 70vh; /* Adjusted height */
-    background: url('Shipping Image.jpg') no-repeat center center/cover;
+    height: 70vh;
+    background: url('uploaded-image.jpg') no-repeat center center/cover;
 }
 
 .overlay {
@@ -23,22 +23,26 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-.grey-block {
+.navbar {
+    display: flex;
+    justify-content: center;
     background-color: #e0e0e0;
-    padding: 40px;
-    margin: 20px;
-    text-align: center;
-    border-radius: 10px;
+    border-bottom: 2px solid black;
 }
 
-.section-links a {
-    margin: 0 15px;
+.navbar a {
+    padding: 15px 30px;
     text-decoration: none;
     color: black;
+    border-right: 1px solid black;
     font-weight: bold;
 }
 
-.section {
+.navbar a:last-child {
+    border-right: none;
+}
+
+#business-history {
     padding: 40px;
     text-align: center;
 }
@@ -50,6 +54,3 @@ footer {
     padding: 10px;
 }
 
-.hidden {
-    display: none;
-}
