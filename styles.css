@@ -5,58 +5,30 @@ body {
 }
 
 .hero {
-    text-align: center;
-    background-color: navy;
-    color: white;
-    padding: 50px 20px;
     position: relative;
-}
-
-.hero-image {
     width: 100%;
-    max-height: 400px;
-    object-fit: cover;
-    margin-top: 20px;
-    border-radius: 10px;
+    height: 100vh;
+    background: url('Shipping Image.jpg') no-repeat center center/cover;
 }
 
-.quick-links {
-    margin-top: 20px;
-}
-
-.link-button {
-    text-decoration: none;
-    background-color: orange;
-    color: white;
-    padding: 10px 20px;
-    margin: 10px;
-    border-radius: 5px;
-    display: inline-block;
-    transition: background-color 0.3s ease;
-}
-
-.link-button:hover {
-    background-color: #ff704d;
-}
-
-.section {
-    padding: 40px;
-    background-color: #f3f3f3;
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-}
-
-.service-cards {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.card {
-    background-color: maroon;
     color: white;
-    padding: 20px;
+    font-family: 'Cursive', sans-serif;
+    font-size: 2rem;
+}
+
+.grey-box {
+    background-color: #e0e0e0;
+    color: black;
+    padding: 40px;
+    margin: 20px;
     border-radius: 5px;
-    width: 150px;
+    text-align: center;
 }
 
 footer {
