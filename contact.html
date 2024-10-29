@@ -22,12 +22,16 @@
 
     <section id="contact-content">
         <h2>Get in Touch</h2>
-        <p>Phone: 1-868-622-1402 | Email: customerserv@overderim.com</p>
         <form id="quoteForm">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <input type="tel" name="phone" placeholder="Your Phone Number" required>
-            <textarea name="details" placeholder="Shipping Details" required></textarea>
+            <div class="form-group">
+                <input type="text" name="first-name" placeholder="First Name" required>
+                <input type="text" name="last-name" placeholder="Last Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Email Address" required>
+                <input type="tel" name="phone" placeholder="Phone Number" required>
+            </div>
+            <textarea name="details" placeholder="Shipping Request" required></textarea>
             <button type="submit">Submit</button>
         </form>
         <p id="confirmationMessage" class="hidden">Request sent. Our team will contact you within 24 hours.</p>
